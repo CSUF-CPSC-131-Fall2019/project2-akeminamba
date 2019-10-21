@@ -31,7 +31,7 @@ public:
     BrowserHistory();
     void backButton();
     void forwardButton();
-    void visitSite(string url, size_t filesize);
+    void visit(string url, size_t pagesize);
     void readFile(string fileName);
     string currentUrl();
     size_t currentPageSize();
